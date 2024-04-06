@@ -9,7 +9,9 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">1234</property>
         <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hibernate.hbm2ddl.auto">create</property>
+        <mapping class="com.aks.model.UserDetails"></mapping>
+        
     </session-factory>
 </hibernate-configuration>
